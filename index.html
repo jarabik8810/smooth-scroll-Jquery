@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by jarabik8810 (http://jsbin.com/jeyiyox/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<style id="jsbin-css">
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+nav {
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  position: fixed;
+}
+
+ ul li {
+  float: left;
+  list-style: none;
+  color: white;
+  margin-top: 17px;
+  margin-left: 45px;
+  font-size: 20px; 
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+.nav-link:hover {
+  color: gray;
+}
+
+.home {
+  width: 100%;
+  height: 50vh;
+  background-color: #A43D5B;
+  padding-top: 80px ;
+}
+.features {
+  width: 100%;
+  height: 100vh;
+  background-color:;
+  padding-top: 40px;
+}
+h1 {
+  margin: 60px;
+  font-size: 50px;
+}
+.f {
+  text-align: center;
+  margin-top: ;
+  
+}
+.lorem, .ipsum {
+  width: 40%;
+  display: inline-block;
+  margin-left: 40px;
+  padding-left: 200px;
+}
+.pricing {
+  height: 100vh;
+  text-align: center;
+  padding-top: 20px;
+}
+.red {
+  background-color: #42b6f4;
+  height: 350px;
+  width: 260px;
+  border-radius: 15px;
+  color:rgb(96, 91, 88);
+  display: inline-block;
+}
+
+.h {
+  padding-top: 27px;
+  color: rgb(204, 98, 22);
+}
+.p {
+  margin: 39px;
+  color:rgb(96, 91, 88);
+}
+.a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(66, 244, 235);
+  padding: 10px;
+  border-radius: 999px;
+}
+.a:hover {
+  color: rgb(66, 244, 235);
+  background-color: rgb(96, 91, 88);
+}
+
+.red-szoveg {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(66, 244, 235);;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.masodik {
+  background-color: rgb(242, 92, 127);
+  height: 380px;
+  width: 260px;
+  border-radius: 15px;
+  color: ;
+  display: inline-block;
+}
+.b {
+  padding-top: 35px;
+  color: rgb(242, 92, 127);
+}
+.c {
+  padding-top: 35px;
+  color: rgb(66, 56, 56);
+}
+
+.orange {
+  background-color: rgb(255, 192, 181);
+  width: 100%;
+  height: 95px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.aa {
+  text-decoration: none;
+  color: gray;
+  padding: 10px;
+  background-color: rgb(255, 192, 181);
+  border-radius: 999px;
+}
+
+.aa:hover {
+  color: rgb(255, 192, 181);
+  background-color: rgb(91, 96, 88)
+}
+.egesz {
+  margin-top: 130px;
+}
+
+h1 {
+  color: rgb(72, 79, 64);
+}
+
+
+
+
+</style>
+</head>
+<body>
+ <header>
+   <nav>
+     <ul>
+       <li><h3>Smooth</h3></li>
+       <li class="active"><a class="nav-link scroll" href="#home">Home</a></li>
+       <li class="active"><a class="nav-link scroll" href="#features">Features</a></li>
+       <li class="active"><a class="nav-link scroll" href="#pricing">Pricing</a></li>
+     </ul>
+   </nav>
+ </header>
+  
+  <section>
+    <div class="home" id="home"><h1>This is smooth!</h1></div>
+  </section>
+  
+  <section>
+    <div class="features" id="features">
+       <h1 class="f">Features</h1>
+      <div class="lorem">
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="ipsum">
+        <h3>Lorem ipsum 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="dolores"></div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="pricing" id="pricing">
+      <h1 class="f">Pricing</h1>
+      <div class="egesz">
+      <div class="red">
+        <div class="red-szoveg"><h3 class="h">Basic</h3></div>
+        <h3 class="h">Cool Plan</h3>
+        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        <a href="#" class="a">Download free</a>
+      </div>
+      <div class="masodik">
+        <div class="orange">
+          <h3 class="b">Most popular</h3>
+        </div>
+        <h3 class="c">Awesome plan</h3>
+        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        <a href="#" class="aa">Buy now</a>
+      </div>
+     <div class="red">
+        <div class="red-szoveg"><h3 class="h">Full deal</h3></div>
+        <h3 class="h">Amazing Plan</h3>
+        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        <a href="#" class="a">Download free</a>
+      </div>
+        </div>
+    </div>
+  </section>
+<script id="jsbin-javascript">
+$(document).ready(function() {
+  
+  var scrollLink = $('.scroll');
+  
+  // smoth srolling
+  
+  scrollLink.click(function(e) { 
+  
+    e.preventDefault();
+    $('body,html').animate({
+      scrollTop: $(this.hash).offset().top
+    }, 1200 );
+    
+  });
+   
+});
+</script>
+</body>
+</html>
